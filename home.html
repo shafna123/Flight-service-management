@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+            .btn{
+                width: 100px;
+                height: 50 px;
+                line-height: 50px;text-align:center;
+                border: 1px solid black;
+                transition: width 2s, height 3s,line-height 3s;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+            .btn:hover{
+                width:200px;
+                height: 100px;
+                line-height:100px;
+            }
+            
+            @keyframes example{
+                0%{background-color:red;}
+                25% {background-color: chartreuse;}
+                50% {background-color: rgb(255, 0, 144);}
+                100% {background-color: rgb(7, 33, 52);}
+            }
+        </style>
+        <link href="css\samplescss.css" rel="stylesheet" type="text/css"/>
+    </head><body>
+        <nav>
+            <ul>
+                <li>
+                    <a href=""> home</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="btn">submit</div>
+        <div class="div-border">shafna</div>
+    </body>
+</html> 

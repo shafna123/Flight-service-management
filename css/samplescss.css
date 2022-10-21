@@ -1,0 +1,22 @@
+.div-border {
+  border: 2px solid green;
+  width: 200px;
+}
+
+textarea {
+  border: 1px solid red;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}/*# sourceMappingURL=samplescss.css.map */

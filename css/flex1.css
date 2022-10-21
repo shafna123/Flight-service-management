@@ -19,3 +19,11 @@ div{
 .item2{
     flex-grow:2;
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: 30px 200px auto 100px;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px 300px;
+}
